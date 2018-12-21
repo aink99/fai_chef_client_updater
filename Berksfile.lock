@@ -1,0 +1,9 @@
+DEPENDENCIES
+  fai_chef_client_updater
+    path: .
+    metadata: true
+
+GRAPH
+  chef_client_updater (3.5.0)
+  fai_chef_client_updater (0.1.2)
+    chef_client_updater (>= 0.0.0)
